@@ -1,0 +1,46 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Work"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Resume"
+  url = "https://drive.google.com/file/d/1T9b7AhT3VBavC7etPcx_xylfx8IbtXTd/view?usp=sharing"
+  weight = 20
+
+[[main]]
+  name = "About"
+  weight = 30
+
+[[main]]
+# pre = "github"
+# name = "GitHub"
+# url = "https://github.com/whygreedy"
+# weight = 40
+
+[[main]]
+# pre = "tableau"
+# name = "Tableau"
+# url = "https://public.tableau.com/app/profile/hsin8308/vizzes"
+# weight = 50
+
+[[main]]
+# pre = "linkedin"
+# name = "LinkedIn"
+# url = "https://www.linkedin.com/in/hsin-cindy-yeh-39717115a/"
+# weight = 60
+
+
+

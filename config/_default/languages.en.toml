@@ -1,0 +1,28 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Hsin's Portfolio"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/logo_hy1.png"
+  # secondaryLogo = "img/logo_hy1.png"
+  # description = "My awesome website"
+  copyright = "Copyright © Hsin Yeh 2024"
+
+[params.author]
+   name = "Hello, I'm Hsin Yeh."
+   email = "hy2228@nyu.edu"
+   image = "img/profile1.png"
+   imageQuality = 96
+   headline = "Aspiring data analytics engineer"
+   bio = "A little bit about you(author bio)"
+   links = [
+     { github = "https://github.com/whygreedy" },
+     { linkedin = "https://www.linkedin.com/in/hsin-cindy-yeh-39717115a/" },
+     { tableau = "https://public.tableau.com/app/profile/hsin8308/vizzes" },
+   ]
