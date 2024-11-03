@@ -9,7 +9,7 @@ title = "Hsin's Portfolio"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/logo.png"
+  logo = "img/logo_hy.png"
   # secondaryLogo = "img/logo.png"
   # description = "My awesome website"
   copyright = "Copyright © Hsin Yeh 2024"
@@ -17,7 +17,7 @@ title = "Hsin's Portfolio"
 [params.author]
    name = "Hello, I'm Hsin Yeh."
    email = "hy2228@nyu.edu"
-   image = "img/profile.png"
+   image = "img/profile_hy.png"
    imageQuality = 96
    headline = "Aspiring data analytics engineer"
    bio = "A little bit about you(author bio)"
