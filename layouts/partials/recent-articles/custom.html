@@ -1,0 +1,66 @@
+{{ $recentArticles := 20 }}
+{{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+
+<!--Filter Buttons-->
+<div class="container text-center mb-6">
+    <ul id="portfolioFilter" class="flex gap-4">
+      <li class="filter active" data-filter="all"><a href="#" onclick="return false">All</a></li>
+      
+      <!--Generate Filter Buttons Dynamically Based on Tags-->
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <li class="filter" data-filter="{{ $name | lower | replaceRE "[^a-zA-Z0-9]+" "-" }}"><a href="#" onclick="return false">{{ $name | title }}</a></li>
+      {{ end }}
+    </ul>
+</div>
+
+
+<!--Card View-->
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in"
+  .Site.Params.mainSections)).Pages }}
+  {{ $tags := delimit (slice) " " }}
+    {{ range .Params.tags }}
+        {{ $tags = printf "%s %s" $tags (lower (replaceRE "[^a-zA-Z0-9]+" "-" .)) }}
+    {{ end }}
+
+    <li class="mix {{ $tags }}" style="list-style-type: none">
+        {{ partial "article-link/custom.html" . }}
+    </li>
+  {{ end }}
+</section>
+
+
+<!--Filter Functionality-->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filters = document.querySelectorAll("#portfolioFilter .filter");
+      const items = document.querySelectorAll(".mix");
+  
+      filters.forEach(filter => {
+        filter.addEventListener("click", function () {
+          const filterValue = this.getAttribute("data-filter");
+  
+          // Update Active Button State
+          filters.forEach(btn => btn.classList.remove("active"));
+          this.classList.add("active");
+  
+          // Filter Portfolio Items
+          items.forEach(item => {
+            if (filterValue === "all" || item.classList.contains(filterValue)) {
+              item.style.display = "block";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+    });
+</script>
+
+
+
+
+
+  
+  
+  
