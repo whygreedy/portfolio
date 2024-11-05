@@ -21,6 +21,8 @@
   {{ else }}
   {{ partial "partials/header/basic.html" . }}
   {{ end }}
+  {{/* Analytics */}}
+  {{ partial "analytics/extend.html" .Site }}
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       {{ block "main" . }}{{ end }}
