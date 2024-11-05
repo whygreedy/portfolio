@@ -147,6 +147,9 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # token = "XXXXXX"
   # enableTrackEvent = true
 
+[googleTagManager]
+  id = "GTM-K2WWH2FR"
+
 [buymeacoffee]
   # identifier = ""
   # globalWidget = true

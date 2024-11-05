@@ -19,7 +19,6 @@ buildFuture = false
 enableEmoji = true
 
 googleAnalytics = ""
-googleTagManager = "GTM-K2WWH2FR"
 
 [pagination]
   pagerSize = 10
