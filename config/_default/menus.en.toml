@@ -17,11 +17,12 @@
 
 [[main]]
   name = "Resume"
-  url = "https://drive.google.com/file/d/1T9b7AhT3VBavC7etPcx_xylfx8IbtXTd/view?usp=sharing"
+  url = "https://drive.google.com/file/d/11Ul4iJgDhzZor7hZVK_4_jb2O6PqqFng/view?usp=sharing"
   weight = 20
 
 [[main]]
   name = "About"
+  pageRef = "/about"
   weight = 30
 
 [[main]]

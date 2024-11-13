@@ -1,12 +1,12 @@
 ---
 title: "Tech Funding Analysis"
-weight: 6
+weight: 7
 draft: false
 description: "tableau-2"
 slug: "tableau-2"
 tags: ["Data Visualization"]
 # series: ["Project"]
-# series_order: 6
+# series_order: 7
 ---
 
 # 📊 tech-funding-analysis

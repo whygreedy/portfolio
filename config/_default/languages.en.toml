@@ -15,7 +15,7 @@ title = "Hsin's Portfolio"
   copyright = "Copyright © Hsin Yeh 2024"
 
 [params.author]
-   name = "Hello, I'm Hsin Yeh."
+   name = "👋🏻 Hello, I'm Hsin Yeh."
    email = "hy2228@nyu.edu"
    image = "img/profile-hy.png"
    imageQuality = 96

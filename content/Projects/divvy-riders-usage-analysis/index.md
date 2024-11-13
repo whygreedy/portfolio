@@ -1,12 +1,12 @@
 ---
 title: "Riders Usage Analysis"
-weight: 5
+weight: 6
 draft: false
 description: "tableau-1"
 slug: "tableau-1"
 tags: ["Data Visualization"]
 # series: ["Project"]
-# series_order: 5
+# series_order: 6
 ---
 
 # 📊 divvy-riders-usage-analysis

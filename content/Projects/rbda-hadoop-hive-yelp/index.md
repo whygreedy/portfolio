@@ -1,12 +1,12 @@
 ---
 title: "Yelp's Reviews Analysis"
-weight: 4
+weight: 5
 draft: false
 description: "hadoop"
 slug: "hadoop"
 tags: ["Data Analytics", "Data Engineer", "Data Visualization"]
 # series: ["Project"]
-# series_order: 4
+# series_order: 5
 ---
 
 # 📊 rbda-hadoop-hive-yelp

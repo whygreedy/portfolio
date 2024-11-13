@@ -1,12 +1,12 @@
 ---
 title: "App Store Review ETL Tool"
-weight: 1
+weight: 2
 draft: false
 description: "app-store-review-etl-tool"
 slug: "app-store-review-etl-tool"
 tags: ["Dev", "Data Engineer"]
 # series: ["Project"]
-# series_order: 1
+# series_order: 2
 ---
 
 # 📱 app-store-review-etl

@@ -1,12 +1,12 @@
 ---
 title: "Data Analyst Jobs Analysis"
-weight: 3
+weight: 4
 draft: false
 description: "sql-job-analysis"
 slug: "sql-job-analysis"
 tags: ["Data Analytics", "Data Visualization"]
 # series: ["Project"]
-# series_order: 3
+# series_order: 4
 ---
 
 # Introduction
