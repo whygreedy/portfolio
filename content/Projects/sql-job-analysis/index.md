@@ -9,7 +9,7 @@ tags: ["Data Analytics", "Data Visualization"]
 # series_order: 4
 ---
 
-# Introduction
+## Introduction
 
 Explore data from job market, and focusing on data analyst roles.
 
@@ -19,7 +19,7 @@ Additionally, you might be interested in learning about the skills that can elev
 
 🔍 Check out SQL queries here : [sql_query folder](https://github.com/whygreedy/sql-job-analysis/tree/main/sql_query)
 
-# Background
+## Background
 
 To refine my SQL skill, data storytelling skill and prepare for job hunting in data analyst roles, I've discovered a project within an [online course](https://youtu.be/7mz73uXD9DA?si=f16EWPUbsigblMZy) that aligns perfectly with my goals. Special thanks to Luke Barousse, I learned a lot from your course.
 
@@ -34,7 +34,7 @@ Data hails from Luke Barousse's [SQL Course](https://lukebarousse.com/sql). It's
 5. What are the most optimal skills to learn?
 6. What are the salary stats for top demanded or top paying skills required for Data Analyst Jobs?
 
-# Tools I Used
+## Tools I Used
 
 To delve into the data analyst job market, I leveraged the power of several key tools:
 
@@ -46,13 +46,13 @@ To delve into the data analyst job market, I leveraged the power of several key 
 - **seaborn:** To plot scatter plot and boxplot.
 - **Visual Studio Code:** My go-to for database management and executing SQL queries.
 
-# The Analysis
+## The Analysis
 
-## Highlights
+### **Highlights**
 
 Before diving into step-by-step analysis, here are data graphs with insights for you to quickly capture the highlights of this project.
 
-**1. Salary Stats Overview**
+### 1. Salary Stats Overview
 
 - Annual salary stats of all Data Analyst Jobs:
 
@@ -69,21 +69,21 @@ Before diving into step-by-step analysis, here are data graphs with insights for
 
 ![7_salary_stat_all](https://raw.githubusercontent.com/whygreedy/sql-job-analysis/refs/heads/main/datagraph/7_salary_stat_all.png)
 
-**2. Salary Stats of Top 5 Demanded Skills**
+### 2. Salary Stats of Top 5 Demanded Skills
 
 - The median salary (represented by the horizontal line inside each box) varies across top demanded skills, and Python appears to have the highest median salary, followed by Tableau and R.
 - As a junior data analyst job seeker, being proficient in Python and Tableau could enhance your job prospects and potentially lead to better salary opportunities.
 
 ![7_top_demanded_skill_salary](https://raw.githubusercontent.com/whygreedy/sql-job-analysis/refs/heads/main/datagraph/7_top_demanded_skill_salary.png)
 
-**3. Salary Stats of Top 5 Paying Skills**
+### 3. Salary Stats of Top 5 Paying Skills
 
 - Skills relevant to big data, distributed data management and machine learning are required for high-paying jobs.
 - Kafka and PyTorch have higher Q3 and mean salary among top 5 paying skills despite their median value not being the highest. Job seekers with proficiency in these skills may have access to a subset of high-paying jobs that offer competitive salaries above the median and mean of the entire job listings.
 
 ![7_top_paying_skill_salary](https://raw.githubusercontent.com/whygreedy/sql-job-analysis/refs/heads/main/datagraph/7_top_paying_skill_salary.png)
 
-**4. Optimal Skills Analysis**
+### 4. Optimal Skills Analysis
 
 From previous highlights, we analyzed top 5 demanded and top 5 paying skills and their salary stats. Now, we look into optimal skills (top 25 paying skills that have over 10 job listings) while applying the concept of [BCG Matrix](https://www.bcg.com/about/overview/our-history/growth-share-matrix) to analyze top skills and make strategy to develop our skillset.
 
@@ -106,7 +106,7 @@ Among top 25 paying skills that have over 10 job listings:
 
 ![5_optimal_skills](https://raw.githubusercontent.com/whygreedy/sql-job-analysis/refs/heads/main/datagraph/5_optimal_skills.png)
 
-**5. Skills Required for Top 10 Paying Jobs**
+### 5. Skills Required for Top 10 Paying Jobs
 
 - Among top 10 paying jobs, Python is the most common skill and followed by Tableau, Excel, R and SQL.
 
@@ -114,7 +114,7 @@ Among top 25 paying skills that have over 10 job listings:
 
 ![2_top_paying_job_skills](https://raw.githubusercontent.com/whygreedy/sql-job-analysis/refs/heads/main/datagraph/2_top_paying_job_skills.png)
 
-## Analysis Step By Step
+### **Analysis Step By Step**
 
 ### 1. Top Paying Data Analyst Jobs
 
@@ -390,7 +390,7 @@ ORDER BY demand_count DESC;
 |  22 | atlassian  |           15 |     117966 |      65000 |     190000 |        102500 |           94 |                         92 |             6 |                        4 |
 |  23 | cassandra  |           11 |     118407 |      53014 |     204585 |        111175 |          102 |                        100 |             5 |                        3 |
 
-# What I Learned
+## What I Learned
 
 Throughout this journey, I have turbocharged my SQL and Python skills.
 

@@ -6,7 +6,7 @@ Born and raised in Taiwan, I majored in Business in college and gained semi-fina
 
 During covid, I came to the US and pursued my master degree at New York University and gained knowledge and experiences in data analytics, engineer and product development. I love coding, building stuff that can increase productivity and deliver positive impact.
 
-Out of 9-5, I enjoy playing tennis and pickleball with friends, cooking exotic meals and doing something creative like woodcrafting, songwriting, and painting.
+Out of 9-5, I enjoy playing tennis and pickleball with friends, cooking exotic meals and doing something creative like woodcrafting and painting.
 
 {{< gallery >}}
 <img src="/gallery/00.jpeg" class="grid-w33" />
